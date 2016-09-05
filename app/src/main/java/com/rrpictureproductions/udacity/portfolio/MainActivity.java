@@ -1,5 +1,7 @@
 package com.rrpictureproductions.udacity.portfolio;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.StringRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,14 +18,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         LinearLayout main = (LinearLayout) findViewById(R.id.linearLayout);
+        findViewById(R.id.portfolioGitHub).setOnClickListener(gitHubListener);
         View child;
-        for (int i = 0; i < main.getChildCount(); i++) {
+        for (int i = 1; i < main.getChildCount(); i++) {
             child = main.getChildAt(i);
             if (child instanceof LinearLayout) {
                 Button b = (Button)(((LinearLayout) child).getChildAt(0));
                 ImageView g = (ImageView)((LinearLayout) child).getChildAt(1);
                 b.setOnClickListener(buttonListener);
-                g.setOnClickListener(githubListener);
+                g.setOnClickListener(gitHubListener);
             }
         }
     }
@@ -35,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    private View.OnClickListener githubListener = new View.OnClickListener() {
+    private View.OnClickListener gitHubListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
             onGitHubButtonClicked(view);
@@ -67,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
 
     void onGitHubButtonClicked(View view) {
         switch (view.getId()) {
+            case R.id.portfolioGitHub:
+                openLink(R.string.github_portfolio);
+                break;
             case R.id.popularMoviesGitHub:
                 toastLong(R.string.github_popular_movies);
                 break;
@@ -90,5 +96,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void toastLong(@StringRes int stringId) {
         Toast.makeText(this, stringId, Toast.LENGTH_LONG).show();
+    }
+
+    private void openLink(@StringRes int linkStringId) {
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(getString(linkStringId)));
+        startActivity(i);
     }
 }

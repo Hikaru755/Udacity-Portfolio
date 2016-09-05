@@ -15,6 +15,7 @@
     <string name="launch_go_ubiquitous">This button will launch my "Go Ubiquitous" app!</string>
     <string name="launch_capstone">This button will launch my capstone app!</string>
 
+    <string name="github_portfolio">https://github.com/Hikaru755/Udacity-Portfolio</string>
     <string name="github_popular_movies">This button will open the GitHub repo for my "Popular Movies" app!</string>
     <string name="github_stock_hawk">This button will open the GitHub repo for my "Stock Hawk" app!</string>
     <string name="github_build_it_bigger">This button will open the GitHub repo for my "Build it bigger" app</string>
