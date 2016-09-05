@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="subtitle">Developed for the Android Developer Nanodegree at Udacity</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="stock_hawk">Stock Hawk</string>
+    <string name="build_it_bigger">Build it bigger</string>
+    <string name="make_your_app_material">Make Your App Material</string>
+    <string name="go_ubiquitous">Go Ubiquitous</string>
+    <string name="capstone">Capstone</string>
+
+    <string name="launch_popular_movies">This button will launch my "Popular Movies" app!</string>
+    <string name="launch_stock_hawk">This button will launch my "Stock Hawk" app!</string>
+    <string name="launch_build_it_bigger">This button will launch my "Build it bigger" app</string>
+    <string name="launch_make_your_app_material">This button will launch my "Make Your App Material" app!</string>
+    <string name="launch_go_ubiquitous">This button will launch my "Go Ubiquitous" app!</string>
+    <string name="launch_capstone">This button will launch my capstone app!</string>
+
+    <string name="github_popular_movies">This button will open the GitHub repo for my "Popular Movies" app!</string>
+    <string name="github_stock_hawk">This button will open the GitHub repo for my "Stock Hawk" app!</string>
+    <string name="github_build_it_bigger">This button will open the GitHub repo for my "Build it bigger" app</string>
+    <string name="github_make_your_app_material">This button will open the GitHub repo for my "Make Your App Material" app!</string>
+    <string name="github_go_ubiquitous">This button will open the GitHub repo for my "Go Ubiquitous" app!</string>
+    <string name="github_capstone">This button will open the GitHub repo for my capstone app!</string>
+
+</resources>
