@@ -17,6 +17,7 @@
     <style name="AppTheme.GitHubButton">
         <item name="android:padding">12dp</item>
         <item name="android:src">@drawable/ic_github_circle_white_24dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
     </style>
 
 </resources>
