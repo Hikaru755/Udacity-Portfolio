@@ -8,19 +8,22 @@
     <string name="go_ubiquitous">Go Ubiquitous</string>
     <string name="capstone">Capstone</string>
 
-    <string name="launch_popular_movies">This button will launch my "Popular Movies" app!</string>
-    <string name="launch_stock_hawk">This button will launch my "Stock Hawk" app!</string>
-    <string name="launch_build_it_bigger">This button will launch my "Build it bigger" app</string>
-    <string name="launch_make_your_app_material">This button will launch my "Make Your App Material" app!</string>
-    <string name="launch_go_ubiquitous">This button will launch my "Go Ubiquitous" app!</string>
+    <string name="app_not_found">No app with application id \"%s\" found!</string>
+
+    <string name="launch_stock_hawk">This button will launch my \"Stock Hawk\" app!</string>
+    <string name="launch_build_it_bigger">This button will launch my \"Build it bigger\" app!</string>
+    <string name="launch_make_your_app_material">This button will launch my \"Make Your App Material\" app!</string>
+    <string name="launch_go_ubiquitous">This button will launch my \"Go Ubiquitous\" app!</string>
     <string name="launch_capstone">This button will launch my capstone app!</string>
 
     <string name="github_portfolio">https://github.com/Hikaru755/Udacity-Portfolio</string>
-    <string name="github_popular_movies">This button will open the GitHub repo for my "Popular Movies" app!</string>
-    <string name="github_stock_hawk">This button will open the GitHub repo for my "Stock Hawk" app!</string>
-    <string name="github_build_it_bigger">This button will open the GitHub repo for my "Build it bigger" app</string>
-    <string name="github_make_your_app_material">This button will open the GitHub repo for my "Make Your App Material" app!</string>
-    <string name="github_go_ubiquitous">This button will open the GitHub repo for my "Go Ubiquitous" app!</string>
+    <string name="github_popular_movies">This button will open the GitHub repo for my \"Popular Movies\" app!</string>
+    <string name="github_stock_hawk">This button will open the GitHub repo for my \"Stock Hawk\" app!</string>
+    <string name="github_build_it_bigger">This button will open the GitHub repo for my \"Build it bigger\" app!</string>
+    <string name="github_make_your_app_material">This button will open the GitHub repo for my \"Make Your App Material\" app!</string>
+    <string name="github_go_ubiquitous">This button will open the GitHub repo for my \"Go Ubiquitous\" app!</string>
     <string name="github_capstone">This button will open the GitHub repo for my capstone app!</string>
+
+    <string name="popular_movies_app_id" translatable="false">com.rrpictureproductions.udacity.popularmovies</string>
 
 </resources>

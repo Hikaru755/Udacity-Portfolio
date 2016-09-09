@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     void onButtonClicked(View view) {
         switch (view.getId()) {
             case R.id.popularMoviesButton:
-                toastLong(R.string.launch_popular_movies);
+                launchApp(getString(R.string.popular_movies_app_id));
                 break;
             case R.id.stockHawkButton:
                 toastLong(R.string.launch_stock_hawk);
@@ -96,6 +96,15 @@ public class MainActivity extends AppCompatActivity {
 
     private void toastLong(@StringRes int stringId) {
         Toast.makeText(this, stringId, Toast.LENGTH_LONG).show();
+    }
+
+    private void launchApp(String applicationId) {
+        Intent i = getPackageManager().getLaunchIntentForPackage(applicationId);
+        if(i != null) {
+            startActivity(i);
+        } else {
+            Toast.makeText(this, getString(R.string.app_not_found, applicationId), Toast.LENGTH_LONG).show();
+        }
     }
 
     private void openLink(@StringRes int linkStringId) {
